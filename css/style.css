@@ -1,3 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:ital@0;1&family=Montserrat:ital,wght@0,300;1,300&family=Oswald:wght@300;500&display=swap");
+/* GLOBAL */
+.oswald {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+/* HEADER */
+header {
+  background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-0/p640x640/116114130_2697325080538767_342280633247695552_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=3fqqc-5w0GgAX9GaEEV&_nc_oc=AQm1AR0zPivDm3kKJZvWC_FPywVXfq6LQ75ljK_Nm0SHBFC_p028EBKhsxQI-IDuoQo&_nc_ht=scontent-frt3-1.xx&_nc_tp=6&oh=62497a9d7aa8361b4f777ce2eb733f85&oe=5F430577");
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.splash {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list-inline-item a {
+  color: white;
+}
+
+.list-inline-item:hover a {
+  text-decoration: none;
+  color: gold;
+  cursor: pointer;
+}
+
+#golden {
+  color: gold;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+}
+
+h4.page-title {
+  font-size: 2em;
+  color: white;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+h1.page-subtitle {
+  font-size: 5em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
 /* SERVICES */
 .image i {
   margin: auto;
@@ -10,10 +63,10 @@ i.fas {
   height: 60px;
   text-align: center;
   border-radius: 50%;
-  color: gold;
+  color: #ffc107;
   display: block;
   background-color: transparent;
-  border: 3px solid gold;
+  border: 3px solid #ffc107;
 }
 
 /* OUR PORTFOLIO */
@@ -42,6 +95,7 @@ p.services,
 .portfolio-description {
   font-style: italic;
   text-align: center;
+  font-family: 'Lora', serif;
 }
 
 .wrapper-cafel .card {
