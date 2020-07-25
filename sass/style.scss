@@ -1,0 +1,46 @@
+/* OUR PORTFOLIO */
+
+img {
+
+    object-fit: cover;
+}
+
+.card-img-top {
+    max-height: 300px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.portfolio-description {
+    font-style: italic;
+}
+
+.wrapper-cafel .card {
+    border-color: white;
+    border-radius: 0;
+}
+
+/* Footer */
+.media div {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+i.fab {
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    display: block;
+    background-color: #212529;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.copyright {
+    line-height: 50px;
+}
