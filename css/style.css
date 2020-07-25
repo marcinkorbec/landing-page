@@ -1,4 +1,26 @@
+/* SERVICES */
+.image i {
+  margin: auto;
+}
+
+i.fas {
+  font-size: 30px;
+  width: 60px;
+  line-height: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  color: gold;
+  display: block;
+  background-color: transparent;
+  border: 3px solid gold;
+}
+
 /* OUR PORTFOLIO */
+.our-porfolio {
+  background-color: #EFF2F5;
+}
+
 img {
   object-fit: cover;
 }
@@ -11,8 +33,15 @@ img {
   text-align: center;
 }
 
+h2,
+.portfolio-title {
+  text-align: center;
+}
+
+p.services,
 .portfolio-description {
   font-style: italic;
+  text-align: center;
 }
 
 .wrapper-cafel .card {
@@ -37,6 +66,11 @@ i.fab {
   background-color: #212529;
   cursor: pointer;
   font-size: 25px;
+  transition: all 0.3s;
+}
+
+i.fab:hover {
+  transform: scale(1.2);
 }
 
 .copyright {
