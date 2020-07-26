@@ -16,7 +16,7 @@ header {
 .splash {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -38,17 +38,21 @@ header {
 }
 
 h4.page-title {
-  font-size: 2em;
   color: white;
   font-family: 'Lora', serif;
   font-style: italic;
 }
 
 h1.page-subtitle {
-  font-size: 5em;
+  font-size: 3rem;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+
+.column-1,
+.column-2 {
+  line-height: 80px;
 }
 
 /* SERVICES */
@@ -130,5 +134,31 @@ i.fab:hover {
 .copyright {
   line-height: 50px;
 }
+
+/* MEDIA */
+@media (max-width: 800px) {
+  section.p-5 {
+    padding: 2% !important;
+  }
+  h1.page-subtitle {
+    font-size: 1.5rem;
+  }
+  h4.page-title {
+    font-size: 1rem;
+  }
+  .column-1,
+  .column-2 {
+    line-height: 32px;
+  }
+  .col-sm-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #golden {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
